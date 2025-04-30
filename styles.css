@@ -15,12 +15,6 @@ body {
   color: #555555;
 }
 
-.bold {
-  font-weight: 700;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
 .semi-bold {
   font-weight: 500;
   font-size: 16px;
@@ -52,10 +46,6 @@ body {
   padding: 0 25px;
 }
 
-.resume .title {
-  margin-bottom: 20px;
-}
-
 .resume .resume_left .bold {
   color: #fff;
 }
@@ -64,13 +54,13 @@ body {
   color: #b1eaff;
 }
 
-.resume .resume_item {
+.resume {
   padding: 25px 0;
   border-bottom: 2px solid #b1eaff;
 }
 
-.resume .resume_left .resume_item:last-child,
-.resume .resume_right .resume_item:last-child {
+.resume .resume_left
+.resume .resume_right {
   border-bottom: 0px;
 }
 
@@ -150,7 +140,7 @@ body {
   padding: 25px;
 }
 
-.resume .resume_right .bold {
+.resume .resume_right {
   color: #0bb5f4;
 }
 
